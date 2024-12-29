@@ -2,15 +2,15 @@
 
 ## 1. Executive Summary
 
-The **To-Do List Application** is a comprehensive task management tool designed to enhance productivity by enabling users to manage their tasks effectively. This web-based application features the following:
+The **To-Do List Application** is a simple task management tool designed to enhance productivity by enabling users to manage their tasks effectively. This web-based application features the following:
 
 - **Task Management**: Add and delete tasks with ease.
 - **Task Prioritization**: Assign priority levels to tasks for better organization.
 - **Responsive Design**: Intuitive user interface built with Cloudscape Design System.
-- **Backend Integration**: Powered by a robust Node.js and Express backend with MongoDB for data storage.
+- **Backend Integration**: Powered by a Node.js and Express backend with MongoDB for data storage.
 - **Soft Deletion**: Tasks marked as "deleted" are retained in the database but hidden from active views.
 
-This project is ideal for demonstrating modern full-stack web development practices, utilizing React on the frontend and Node.js on the backend.
+This project is demonstrating modern full-stack web development practices, utilizing React on the frontend and Node.js on the backend.
 
 ---
 
@@ -75,7 +75,7 @@ Follow these steps to run the application locally:
 
 ---
 
-## 3. Dive Deep
+## 3. Deep Dive
 
 ### Code Structure
 
