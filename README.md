@@ -32,10 +32,11 @@ Follow these steps to run the application locally:
    - Well done! your database connection string is: **mongodb://<localhost:27017>/<to_do_list_db>**
      
 2. **Clone the Repository**:
-   ```bash
-   git clone https://github.com/omer-sade/to-do-list.git
-   cd to-do-list
-   ```
+   - Create target folder to store the project's file. Open the new folder through the terminal and type:
+      ```bash
+         git clone https://github.com/omer-sade/to-do-list.git
+         cd to-do-list
+         ```
 
 3. **Install Dependencies**:
    - Navigate to the backend folder and install dependencies:
@@ -70,7 +71,7 @@ Follow these steps to run the application locally:
      npm start
      ```
 
-6. **Access the Application**:
+8. **Access the Application**:
    Open your browser and navigate to `http://localhost:3000`.
 
 ---
