@@ -22,10 +22,10 @@ router.post('/', async (req, res) => {
 
 // Get all tasks
 router.get('/', async (req,res) => {
-    try{
+    try {
         const tasks = await Task.find();
         res.status(200).json(tasks);
-    }catch(error){
+    } catch(error) {
         res.status(500).json({ error : error.message});
     }
 });
@@ -70,7 +70,7 @@ router.put('/:id', async (req,res) => {
 
         res.status(200).json({ message: 'Task marked as deleted', task });
 
-    }catch(error){
+    } catch(error) {
         res.status(400).json({ error : error.message});
     }
 });

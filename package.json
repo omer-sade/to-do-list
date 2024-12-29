@@ -1,6 +1,25 @@
 {
+  "name": "to-do-list",
+  "version": "1.0.0",
+  "description": "The **To-Do List Application** is a simple task management tool designed to enhance productivity by enabling users to manage their tasks effectively. This web-based application features the following:",
+  "homepage": "https://github.com/omer-sade/to-do-list#readme",
+  "bugs": {
+    "url": "https://github.com/omer-sade/to-do-list/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/omer-sade/to-do-list.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "install": "concurrently \"cd client && npm install\" \"cd server && npm install\"",
+    "start": "concurrently \"cd client && npm start\" \"cd server && npm start\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
   "dependencies": {
-    "@cloudscape-design/components": "^3.0.857",
-    "@cloudscape-design/global-styles": "^1.0.33"
+    "concurrently": "^9.1.1"
   }
 }

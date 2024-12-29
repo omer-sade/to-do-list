@@ -39,14 +39,8 @@ Follow these steps to run the application locally:
       ```
 
 3. **Install Dependencies**:
-   - Navigate to the backend folder and install dependencies:
+   - Navigate to the root folder and install dependencies:
      ```bash
-     cd server
-     npm install
-     ```
-   - Navigate to the frontend folder and install dependencies:
-     ```bash
-     cd ../client
      npm install
      ```
 
@@ -58,20 +52,15 @@ Follow these steps to run the application locally:
      ```
 
 5. **Run the Application**:
-   - Start the backend server:
+   - Start the application:
      ```bash
-     cd server
      npm start
      ```
      "Connected to MongoDB" is now logged to the console.
      
-   - Start the frontend (in a new terminal):
-     ```bash
-     cd to-do-list/client
-     npm start
-     ```
 
-8. **Access the Application**:
+
+6. **Access the Application**:
    Open your browser and navigate to `http://localhost:3000`.
 
 ---
