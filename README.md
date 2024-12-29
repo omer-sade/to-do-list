@@ -4,9 +4,8 @@
 
 The **To-Do List Application** is a comprehensive task management tool designed to enhance productivity by enabling users to manage their tasks effectively. This web-based application features the following:
 
-- **Task Management**: Add, edit, and delete tasks with ease.
+- **Task Management**: Add and delete tasks with ease.
 - **Task Prioritization**: Assign priority levels to tasks for better organization.
-- **Dynamic Filtering**: Automatically hide deleted tasks from the task table.
 - **Responsive Design**: Intuitive user interface built with Cloudscape Design System.
 - **Backend Integration**: Powered by a robust Node.js and Express backend with MongoDB for data storage.
 - **Soft Deletion**: Tasks marked as "deleted" are retained in the database but hidden from active views.
@@ -75,8 +74,7 @@ The project is structured into two main directories: `client` (frontend) and `se
 
 #### **Frontend (Client)**
 - **`src/components`**: Contains reusable React components, such as `MainTable` for displaying tasks.
-- **`src/constants`**: Holds constants like task templates (`EMPTY_TASK`) and dropdown options for priority and status.
-- **`src/utils`**: Utility functions, such as `taskUtils.js` for parsing database responses and filtering deleted tasks.
+- **`src/constants`**: Holds constants like task templates and utility functions.
 - **`src/App.js`**: The main application file containing core logic for task management.
 
 #### **Backend (Server)**
@@ -92,7 +90,4 @@ The project is structured into two main directories: `client` (frontend) and `se
 This structure ensures scalability, maintainability, and clear separation of concerns, making it easy to extend the application with new features in the future.
 
 ---
-
-### Additional Notes
-For any issues, contributions, or feature requests, feel free to open an issue on the project’s [GitHub repository](https://github.com/omer-sade/to-do-list).
 
