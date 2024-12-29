@@ -91,3 +91,14 @@ This structure ensures scalability, maintainability, and clear separation of con
 
 ---
 
+## 4. Next features to add (if I had more time)
+
+- **Deletion**: An inline icon for deleting a row for a more professional look.
+- **Sorting**: Enable a sorting option to view tasks in a specific order (for example: sort by priority)
+- **Tabs**: Enable 3 tabs to view desired tasks: All, Completed, Deleted
+
+
+
+
+
+
