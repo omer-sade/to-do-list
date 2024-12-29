@@ -24,13 +24,20 @@ Follow these steps to run the application locally:
 - **Git** installed
 
 ### Steps
-1. **Clone the Repository**:
+1. **Create a MongoDB database**:
+   - Open MongoDB Compass
+   - Connect to localhost
+   - Click "Create database" and choose a name (for example: "to_do_list_db")
+   - Create a collection (table) and choose a name (for example: "tasks")
+   - Well done! your database connection string is: **mongodb://<localhost:27017>/<to_do_list_db>**
+     
+2. **Clone the Repository**:
    ```bash
    git clone https://github.com/omer-sade/to-do-list.git
    cd to-do-list
    ```
 
-2. **Install Dependencies**:
+3. **Install Dependencies**:
    - Navigate to the backend folder and install dependencies:
      ```bash
      cd server
@@ -42,26 +49,28 @@ Follow these steps to run the application locally:
      npm install
      ```
 
-3. **Set Up Environment Variables**:
-   - Create a `.env` file in the `server` directory with the following variables:
+4. **Set Up Environment Variables**:
+   - In the 'server' directory, create (or modify) '.env' file:
      ```env
      MONGO_URI=<your-mongodb-connection-string>
      PORT=5000
      ```
 
-4. **Run the Application**:
+5. **Run the Application**:
    - Start the backend server:
      ```bash
      cd server
      npm start
      ```
-   - Start the frontend:
+     "Connected to MongoDB" is now logged to the console.
+     
+   - Start the frontend (in a new terminal):
      ```bash
-     cd ../client
+     cd to-do-list/client
      npm start
      ```
 
-5. **Access the Application**:
+6. **Access the Application**:
    Open your browser and navigate to `http://localhost:3000`.
 
 ---
