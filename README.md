@@ -33,10 +33,10 @@ Follow these steps to run the application locally:
      
 2. **Clone the Repository**:
    - Create target folder to store the project's files. Open the new folder through the terminal and type:
-         ```bash
+      ```bash
          git clone https://github.com/omer-sade/to-do-list.git
          cd to-do-list
-         ```
+      ```
 
 3. **Install Dependencies**:
    - Navigate to the backend folder and install dependencies:
